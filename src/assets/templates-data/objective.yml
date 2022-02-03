@@ -55,9 +55,9 @@ events:
     ^ journal delete j_QUESTNAME_done
     ^ tag add tag_QUESTNAME_paid
     ^ command mmocore admin exp give %player% main $QUESTNAME_exp$
-    ^ notify &eВы получили &6$QUESTNAME_exp$ &eопыта category:default.reward
+    ^ notify &eRecibiste: &6$QUESTNAME_exp$ &eExperiencia category:default.reward
     ^ money $QUESTNAME_money$ notify
-    ^ notify &2Вы закончили квест &A$QUESTNAME_name$ category:default.end_quest
+    ^ notify &2Has completado la misión &A$QUESTNAME_name$ category:default.end_quest
     ^ compass del compass_QUESTNAME
 
 conditions:
@@ -92,6 +92,7 @@ objectives:
 
 template_info:
   title:
+    es: Objetivo template
     en: Objective template
     ru: Шаблон простого задания
 
@@ -101,18 +102,21 @@ template_info:
   variables:
     LANGSLUG:
       title:
+        es: Lenguaje
         en: Language
         ru: Язык
       default: en
 
     OBJECTIVE:
       title:
+        es: Objetivo
         en: Objective
         ru: Задание
       default: 'mmobkill MobName amount:1 notify events:event_QUESTNAME_done'
 
     QUESTNAME:
       title:
+        es: Nombre de quest del sistema
         en: Quest name for system
         ru: Название квеста для системы
       default: example

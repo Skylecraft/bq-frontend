@@ -165,12 +165,14 @@ import menuExample from './assets/menuExample.yml?raw'
 
 import ruFlag from './assets/lang-icons/ru.svg'
 import enFlag from './assets/lang-icons/en.svg'
+import enFlag from './assets/lang-icons/es.svg'
 
 export default {
   components: {
     subSection,
     ruFlag,
     enFlag,
+    esFlag,
     templateView,
   },
   data() {
@@ -184,12 +186,13 @@ export default {
       inclideMenuExample: false,
       openSettingsVisible: false,
       init_settings: {
-        language: 'ru',
+        language: 'es',
         dark: false,
       },
       _settings: {},
       avaliableLanguages: {
         en: enFlag,
+        es: esFlag,
         ru: ruFlag,
       },
       templateDialogVisible: false,

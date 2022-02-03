@@ -1,0 +1,127 @@
+open: Открыть
+open-zip: Открыть zip
+open-json: Открыть json
+open-slot: Открыть сохранённый слот
+save-json: Экспорт в json
+save: Сохранить
+save-slot: Сохранить в слот
+new-section: Новый раздел
+settings: Настройки
+bq-doc: Документация BetonQuest
+rpgmenu-doc: Документация RPGMenu
+quest-name: Введите название раздела квестов
+quest-example: Добавить пример квеста?
+menu-example: Добавить пример меню?
+cancel: Отмена
+create: Создать
+language: Язык
+error-title-name-empty: Заголовок раздела не может быть пустым
+create-section: Создание раздела
+add-dialog-section: Добавить секцию квестов
+dialogs: Диалоги
+add-menu: Добавить меню
+menus: Меню
+events: События
+objectives: Задания
+conditions: Условия
+items: Предметы
+main: Основное
+journal: Журнал
+custom: Разное
+create-subsection: Создание секции квестов
+dialog-section-name: Введите название квестера
+provide-name: Введите название
+empty-title: Заголовок не может быть пустым
+delete-section: Удалить раздел {tab}?
+confirm: Подтвердить
+delete: Удалить
+tab-deleted: Раздел <b>{tab}</b> удалён
+dialog-exists: Диалог {newName} уже существует
+dialog-section-created: Раздел диалогов <b>{newName}</b> создан
+menu-section-exists: Меню {newName} уже существует
+menu-section-created: Раздел меню <b>{newName}</b> создан
+yaml-editor: Yaml редактор
+add-dialog: Добавить вариант диалога
+save-and-return: Сохранить и вернуться в визуальный редактор
+enter-dialog-name: Введите название диалога
+dialog-window-title: Новый диалог
+exists-regex: Уже существует или ошибка в названии (используйте a-z 0-9 и _)
+dialog-created: Диалог <b>{value}</b> создан
+dialog-renamed: Диалог <b>{old}</b> периименован <b>{new}</b>
+dialog-deleted: Диалог <b>{dialogKey}</b> удалён
+NPC_options: Варианты ответов NPC
+player_options: Варианты от игрока
+no-options: Нет вариантов
+no-results: Не найдено вариантов
+delete-section-key: Удалить {name} из раздела {from}?
+delete-key: Удалить {key}?
+new-setting: Добавить запись
+quester-name: Имя квестодателя
+new-setting-key: Введите название
+save-zip: Экспорт в zip архив
+data-is-empty: Нет данных для сохранения
+template-create: Меню шаблонов
+template-dialog: Создание квеста по шаблону
+delete-dialog-section: Удаление раздела диалогов
+dialog-section-deleted: Раздел диалогов <b>{section}</b> удалён
+diagram-editor: Редактор диаграм
+
+template-quest-select: NPC
+preview: Предпросмотр
+return-to-edit: Вернуться к редактированию
+apply: Применить
+objective-mmobkill: Убийство mythic моба
+objective-custom: Своё задание
+mmomob-name: Название Mythic-моба
+amount: кол-во
+no-quester: Квестодатель не выбран
+no-quester-to: Второй квестодатель не выбран
+template-applyed: Шаблон квеста "{questName}" применён
+
+enter-new-name: Введите новое имя
+rename: Переименование
+pointers: Ссылки на диалоги
+delete-language: Удалить текст языка {language}?
+add-language: Добавить язык
+add: Добавить
+first-option: Стартовый диалог
+select-option: Выберите вариант
+stop-option: Закрытие диалога только при завершении
+bq-mcmodels-tutorials: Туториалы BetonQuest на mcmodels.net
+
+dialog-quester-npc-id: Введите id npc квестера (не обязательно)
+
+template-quest-select-from: Квестодатель NPC
+template-quest-select-to: NPC, которому сдавать квест
+template-add-to-first-message: Добавить ответы в первый вариант диалога?
+template-add-to-hologram-conditions: Добавить условия в настройки голограм?
+
+add-configs-hologram-and-conditions-for-npc: Добавить настройки для голограм и условий для них?
+id-only-numbers: ID может состоять только из чисел
+
+use-dark-theme: Использовать тёмную тему
+template-add-compass: Добавить направление для компаса
+add-dialog-to-first-option: Добавить вариант ответа в первый диалог
+create-item: Создать предмет через меню
+create-item-dialog: Меню создания предметов
+newitem-material: Материал
+newitem-cmd: Custom model data
+newitem-name: Название
+newitem-lore: Описание
+newitem-settingName: Название настройки
+newitem-quest-items-unbreakable: Нельзя уничтожить
+newitem-already-exists: Предмет {settingName} уже существует
+
+add-new-template: Добавить новый темплейт
+template-main-tab: Создание
+template-preview-tab: Предпросмотр
+template-source-tab: Исходный код шаблона
+template-create-new: Создать новый шаблон
+template-create-button: Создать шаблон
+add-dropdown: Добавить
+new-template-title: Название
+template-removed: Шаблон <b>{template}</b> удалён
+template-created: Шаблон <b>{template}</b> создан
+template-bad-name: Название не подходит (используйте a-z 0-9 и _)
+template-save-source: Сохранить настройку шаблона
+template-saved: Шаблон сохранён
